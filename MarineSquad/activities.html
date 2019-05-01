@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0 , shrink-to-fit=no">
+   <title>Activities-Marine Squad</title>
+	 <link rel="stylesheet" type="text/css" href="activities.css">
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+ </head>
+ <body>
+  <!--nav bar-->
+	<div id="main"></div>
+	 <nav>
+		 <ul>
+				<li class="left"><img src="Turtle.png" alt="" height="50px" width="50px"></li>
+				<li class="left"><a href="index.html">Home</a></li>
+				<li class="left"><a href="about.html" >About</a></li>
+				<li class="left"><a href="facts.html">Facts</a></li>
+				<li class="left"><a href="#" class="active">Activities</a></li>
+				<li class="left"><a href="index.html">FAQs</a></li>
+				<li class="left"><a href="index.html">Contact Us</a></li>
+				<li class="right"><a href="signup.html">Sign Up</a></li>
+				<li class="right"><a href="donate.html">Donate</a></li>
+		 </ul>
+		 <span aria-hidden="true"></span>
+	  </nav>
+   </div>
+
+   <!--header-->
+    <div class="header">
+      <img src="./Straw.jpeg" alt="activites" class="header-img" width="100%" height="500px">
+      <div class="overlay-heading">
+        <h1>WHAT WE OFFER</h1>
+      </div>
+    </div>
+
+  <!--Merchandise-->
+  <div class="merc">
+
+    <div class="merc-header">
+      <h2>Merchandise</h2><hr>
+      <h5>Be part of our community! <br> 30% of the profit will be donated under the UNESCO <br> on making our vision turn into reality</h5>
+    </div>
+
+    <div class="container-merc">
+
+    <div class="purchase box">
+      <h3>1. CHOOSE THE PRODUCT</h3>
+      <div class="Product">
+        <img src="metalstraw.jpg" alt="MLMS" width="400px" height="250px">
+      </div>
+    </div>
+    <div class="box">
+      <h3>2. SELECT NO. OF ITEMS</h3>
+        <form name="order-form">
+         Price (RM) <input class="insert" type="text" name="txtnum1" value="25">
+         <br><br>
+         Quantity <input class="insert" type="text" name="txtnum2">
+         <br><br>
+         Total Price <input class="insert" type="text" name="txtres"> <br><br>
+         <input class="btn" type="button" value="Calculate!" onClick="sumValues()"
+        </form>
+    </div>
+    <div class="box">
+      <h3>3. CONTACT US</h3>
+      <div class="contact">
+      <a href="https://api.whatsapp.com/send?phone=60103591103" target="_blank" class="btn">Send Message</a>
+      </div>
+    </div>
+</div>
+
+  <script type="text/javascript">
+    function sumValues()
+    {
+      var num1, num2, res;
+      num1=Number(document.orderform.txtnum1.value);
+      num2=Number(document.orderform.txtnum2.value);
+      res=num1*num2;
+      document.orderform.txtres.value=res;
+    }
+  </script>
+
+  <!--Programmes-->
+  <div class="prog">
+
+    <div class="prog-intro">
+      <h2>Programmes</h2><hr>
+      <p>Our projects are currently a joint-programme with
+        Happy Earth. </p>
+    </div>
+
+    <div class="prog-1">
+      <img src="pollution.png" alt="polution" height="400px" style="width:60%">
+      <div class="prog-content">
+        <h2>Workshop:Plastic Pollution</h2>
+        <p> A silver lining to the black cloud of plastic pollution is that the sources are so concentrated. </p>
+        <a href="https://www.happyearthapparel.com/blog/plastic-pollution" class="btn" target="_blank">Read More</a>
+      </div>
+    </div>
+
+    <div class="prog-2">
+      <img src="replant.jpeg" alt="Replant Corals" height="400px" style="width:60%">
+      <div class="prog-content">
+        <h2>Under the Sea: Replanting Corals!</h2>
+        <p> As the carbon dioxide is dissolved in the ocean, the conditions become more acidic. Let's start planting!</p>
+        <a href="https://www.happyearthapparel.com/blog/guest-post-replanting-coral-reefs" class="btn" target="_blank">Read More</a>
+      </div>
+    </div>
+
+    <div class="prog-3">
+      <img src="turtles.jpeg" alt="turtle breeding" height="400px" style="width:60%">
+      <div class="prog-content">
+        <h2>Breeding Sea Turtles</h2>
+        <p> Sea turtles play an important role in the oceans ecosystems &emp; food web.</p>
+        <a href="https://www.happyearthapparel.com/blog/guest-post-sea-turtles" class="btn" target="_blank">Read More</a>
+      </div>
+    </div>
+</div>
+
+  <!--Research-->
+
+  <div class="research">
+      <img src="BB.jpeg" width="100%" height="400px" class="res-image">
+      <h2>Research</h2><hr>
+      <p> A pool of scientists from several universities are collaborating with us in ongoing projects.
+         <br>Some of the past researchs are :</p>
+      <p>&nbsp;</p>
+   <div class="contain">
+      <div class = "research-container res-1">
+         <h2>How water bodies affect the our agricultural practices</h2>
+         <p> Agriculture disrupts all freshwater systems hugely from their pristine states. The former reductionist concept of pollution was of examining individual
+             effects of particular substances on individual taxa or sub-communities in freshwater systems, an essentially ecotoxicological concept. It is now less useful than a more holistic approach that treats the impacts on the system as a whole and includes physical impacts such as drainage and physical modification of river channels and modification of the catchment as well as nutrient, particulate and biocide pollution. The European Water Framework Directive implicitly recognizes this in requiring restoration of water bodies to ‘good ecological quality’, which is defined as only slightly different from pristine state. The implications for the management of agriculture are far more profound than is currently widely realized. </p>
+          <a class="btn" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2610176/" target="_blank"> Read More </a>
+      </div>
+
+      <div class = "research-container res-2">
+        <h2> The rising Sea levels</h2>
+        <p> With continued ocean and atmospheric warming, sea levels will likely rise for many centuries at rates higher than that of the current century. In the United States, almost 40 percent of the population lives in relatively high-population-density coastal areas, where sea level plays a role in flooding, shoreline erosion, and hazards from storms. Globally, eight of the world's 10 largest cities are near a coast, according to the U.N. Atlas of the Oceans. </p>
+        <a  class="btn" href="https://oceanservice.noaa.gov/facts/sealevel.html" target="_blank"> Read More </a>
+      </div>
+
+     <div class = "research-container  res-3">
+        <h2> How marine life is affecting the economy</h2>
+        <p> People in coastal countries depend on healthy oceans and fisheries for their livelihood.
+          But fishing subsidies and other economic policies may distort incentives and spend public money on practices that
+          are unsustainable and otherwise unprofitable. Nevertheless, gross global revenue from marine ﬁsheries during the past decade is
+          estimated at $80 billion to $85 billion annually. When indirect effects on related industries that depend on ﬁsheries, such as boat
+          manufacturing and canning, are incorporated, the total global value is approximately $240 billion annually—nearly three times the value
+          of the catch alone.  </p>
+        <a  class="btn"href="https://www.pewtrusts.org/en/research-and-analysis/articles/2015/07/oceans-and-the-global-economy" target="_blank"> Read More </a>
+     </div>
+   </div>
+  </div>
+
+  <!--footer-->
+   <footer>
+    <div class="section section-footer container">
+      <div class="left-items">
+        <a href="signup.html" class="btn">Join Us!</a>
+        <p> Sign Up to get exclusive rewards <br> and offers! Join us to save the day.
+            It's free~</p><br>
+        <a href="donate.html" class="btn">Donate</a>
+        <p>Save the day by paying it forward!</p>
+      </div>
+
+      <div class="right-items">
+        <span class="icons">
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://plus.google.com" target="_blank"><i class="fab fa-google-plus"></i></a>
+          <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+        </span>
+      </div>
+     </div>
+
+     <div class="bottom-line">
+       <p>"Without turtles...there won't be any turtles."- Bretman Rock <i class="fas fa-heartbeat"></i></p>
+       <p> &copy; 2019 Marine Squad </p>
+     </div>
+
+   </footer>
+
+    <a href="#main"><i class="fas fa-arrow-circle-up"></i></a>
+
+   </body>
+  </html>
